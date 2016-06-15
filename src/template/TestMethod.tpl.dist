@@ -8,6 +8,6 @@
     {
         $this->assert{assertion}(
             {expected},
-            $this->object->{origMethodName}({arguments})
+            $this->service->{origMethodName}({arguments})
         );
     }

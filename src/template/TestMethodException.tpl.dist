@@ -7,5 +7,5 @@
      */
     public function test{methodName}()
     {
-        $this->object->{origMethodName}({arguments});
+        $this->service->{origMethodName}({arguments});
     }

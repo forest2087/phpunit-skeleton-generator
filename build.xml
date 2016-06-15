@@ -122,4 +122,3 @@
   <chmod file="${basedir}/build/phpunit-skelgen-${version}.phar" perm="ugo+rx"/>
  </target>
 </project>
-
