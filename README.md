@@ -35,3 +35,7 @@ For a system-wide installation via Composer, you can run:
 
 Make sure you have `~/.composer/vendor/bin/` in your path.
 
+### Dependencies
+
+*   apache ant - build tool
+*   phpab - build phar
