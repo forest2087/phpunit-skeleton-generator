@@ -10,14 +10,10 @@
 
 The easiest way to obtain phpunit-skelgen is to download a [PHP Archive (PHAR)](http://php.net/phar) that has all required dependencies of phpunit-skelgen bundled in a single file:
 
-    wget https://phar.phpunit.de/phpunit-skelgen.phar
-    chmod +x phpunit-skelgen.phar
-    mv phpunit-skelgen.phar /usr/local/bin/phpunit-skelgen
+    curl https://github.com/forest2087/phpunit-skeleton-generator/blob/master/build/phpunit-skelgen?raw=true --output phpunit-skelgen
+    chmod +x phpunit-skelgen
+    mv phpunit-skelgen /usr/local/bin/phpunit-skelgen
 
-You can also immediately use the PHAR after you have downloaded it, of course:
-
-    wget https://phar.phpunit.de/phpunit-skelgen.phar
-    php phpunit-skelgen.phar
 
 ### Composer
 
